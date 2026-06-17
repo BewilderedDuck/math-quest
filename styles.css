@@ -1,0 +1,20 @@
+
+body{
+background:#0f172a;color:white;font-family:Inter,Arial,sans-serif;
+display:flex;justify-content:center;padding:30px;
+}
+.container{width:800px}
+.header{display:flex;justify-content:space-between;align-items:center}
+.card{
+margin-top:20px;background:#1e293b;padding:25px;
+border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.3)
+}
+.progress{height:14px;background:#334155;border-radius:20px;overflow:hidden}
+#progressFill{height:100%;width:0%;background:#22c55e;transition:.3s}
+.badge{display:inline-block;background:#2563eb;padding:6px 12px;border-radius:999px;margin-top:15px}
+button{
+width:100%;margin-top:12px;padding:16px;border:none;border-radius:14px;
+background:#334155;color:white;font-size:16px;cursor:pointer;transition:.2s;
+}
+button:hover{transform:translateY(-2px)}
+#feedback{margin-top:15px;font-weight:bold;font-size:18px}
